@@ -70,8 +70,8 @@ Before running this project, make sure you have:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/mern-filter-pagination.git
-cd mern-filter-pagination
+git clone https://github.com/N-Manjunath/Task-A.git)
+cd Task-A
 ```
 
 ### 2. Backend Setup
@@ -83,21 +83,6 @@ cd backend
 # Install dependencies
 npm install
 
-# Create .env file
-touch .env
-```
-
-Add the following to your `.env` file:
-
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/mern-filter-db
-NODE_ENV=development
-```
-
-**For MongoDB Atlas**, replace `MONGODB_URI` with your connection string:
-```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/mern-filter-db
 ```
 
 ### 3. Frontend Setup
@@ -117,7 +102,7 @@ npm install
 **Terminal 1 - Backend:**
 ```bash
 cd backend
-npm run dev
+node app.js
 ```
 Backend will run on `http://localhost:5000`
 
